@@ -14,7 +14,7 @@ public class Main {
 		while(true){
 		    boolean f1 = false;
 		    boolean f2 = false;
-		    
+		    //acquire
 		    while(i < str.length() - 1){
 		        f1 = true;
 		        i++;
@@ -30,7 +30,7 @@ public class Main {
 		            }
 		        }
 		    }
-		    
+		    //release
 		    while(j < i){
 		        f2 = true;
 		        j++;
